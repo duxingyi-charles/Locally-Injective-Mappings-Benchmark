@@ -8,6 +8,7 @@ This dataset is not limited to locally injective mapping, you may also find it u
 
 The dataset contains 10743 triangular mesh examples and 904 tetrahedron mesh examples. The dataset is divided into 3 categories, 2D parameterization, 3D parameterization and 3D deformation. 
 
+![](figure/dataset_example_count.png)
 
 
 
