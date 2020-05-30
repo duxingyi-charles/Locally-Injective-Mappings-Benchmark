@@ -16,6 +16,14 @@ The dataset contains 10743 triangular mesh examples and 904 tetrahedron mesh exa
 
 ![](figure/2D_Param_Simple.png)
 
+#### Letters
+
+![](figure/2D_Param_Letters.png)
+
+#### Liu 
+
+![](figure/2D_Param_Liu.png)
+
 ## Data format
 
 
