@@ -10,13 +10,11 @@ The dataset contains 10743 triangle mesh examples and 904 tetrahedron mesh examp
 
 ![](figure/dataset_example_count.png)
 
+Next, we will show several examples from each catagory and discuss how we build the dataset. In all the figures, the injective meshes in target domains are obtained using our method.
+
 ### 2D Parameterization
 
-
-
-#### Simple
-
-{{<figure alt="2D Parameterization" src="figure/2D_Param_Simple.png" title="Figure 2. Four examples in the 2D parameterization category derived from [Liu et al. 2018], where methods FF and LBD failed to find injective embeddings. Inverted triangles are colored in red, and the numbers of inversion are marked in red.">}}
+Simple example maps a planar mesh into a planar target domain. The first two examples map a square into two concave domain. The middle two examples come from [Weber & Zorin 2014]. The last three examples are produced by rotating and translating the inner boundary.
 
 ![](figure/2D_Param_Simple.png)
 
@@ -42,3 +40,9 @@ The dataset contains 10743 triangle mesh examples and 904 tetrahedron mesh examp
 ## Cite
 
 If you use our dataset, please cite our paper:
+
+## References
+
+- Weber, O., & Zorin, D. (2014). Locally injective parametrization with arbitrary fixed boundaries. ACM Trans. Graph., 33, 75:1-75:12.
+
+
