@@ -4,6 +4,8 @@ Injectively mapping a source mesh into a target domain is an important but chall
 
 This dataset is not limited to locally injective mapping, you may also find it useful for mesh parameterization, deformation, or simply as a source for a large number of meshes.
 
+Download:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3827969.svg)](https://doi.org/10.5281/zenodo.3827969)
 
 
 ## Dataset organization
@@ -58,7 +60,7 @@ Here is an introduction to [VTK format](https://lorensen.github.io/VTKExamples/s
 
 ## Cite
 
-If you use our dataset, please cite our paper:
+If you use our dataset, please cite our paper
 ```
 @article{DU2020_lifting_injective,
     author = {Xingyi Du and Noam Aigerman and Qingnan Zhou and Shahar Z. Kovalsky and Yajie Yan and Danny M. Kaufman and Tao Ju},
