@@ -4,6 +4,8 @@ Injectively mapping a source mesh into a target domain is an important but chall
 
 This dataset is not limited to locally injective mapping, you may also find it useful for mesh parameterization, deformation, or simply as a source for a large number of meshes.
 
+
+
 ## Dataset organization
 
 The dataset contains 10743 triangle mesh examples and 904 tetrahedron mesh examples. They are divided into 3 categories, 2D parameterization, 3D parameterization and 3D deformation. Each category has 3 groups of examples. The following table shows the number of examples in each group.
@@ -57,16 +59,23 @@ Here is an introduction to [VTK format](https://lorensen.github.io/VTKExamples/s
 ## Cite
 
 If you use our dataset, please cite our paper:
+```
+@article{DU2020_lifting_injective,
+    author = {Xingyi Du and Noam Aigerman and Qingnan Zhou and Shahar Z. Kovalsky and Yajie Yan and Danny M. Kaufman and Tao Ju},
+    title = {Lifting Simplices to Find Injectivity},
+    journal = {ACM Transactions on Graphics},
+    year = {2020},
+    volume = {39},
+    number = {4}
+}
+```
 
 ## References
 
-- Weber, O., & Zorin, D. (2014). Locally injective parametrization with arbitrary fixed boundaries. ACM Trans. Graph., 33, 75:1-75:12.
-- Jiang, Z., Schaefer, S., & Panozzo, D. (2017). Simplicial complex augmentation framework for bijective maps. ACM Transactions on Graphics (TOG), 36, 1 - 9.
-- Liu, L., Ye, C., Ni, R., & Fu, X. (2018). Progressive parameterizations. ACM Transactions on Graphics (TOG), 37, 1 - 12.
 - Aigerman, N., & Lipman, Y. (2013). Injective and bounded distortion mappings in 3D. ACM Trans. Graph., 32, 106:1-106:14.
 - Fu, X., Bai, C., & Liu, Y.P. (2016). Efficient Volumetric PolyCube-Map Construction. Comput. Graph. Forum, 35, 97-106.
-- Su, J., Fu, X., & Liu, L. (2019). Practical Foldover-Free Volumetric Mapping Construction. Comput. Graph. Forum, 38, 287-297.
+- Liu, L., Ye, C., Ni, R., & Fu, X. (2018). Progressive parameterizations. ACM Transactions on Graphics (TOG), 37, 1 - 12.
+- Jiang, Z., Schaefer, S., & Panozzo, D. (2017). Simplicial complex augmentation framework for bijective maps. ACM Transactions on Graphics (TOG), 36, 1 - 9.
 - Minchen, L., Ferguson, Z., Langlois, T.J., & Jiang, C. (2020). Incremental Potential Contact: Intersection- and Inversion-free, Large-Deformation Dynamics.
-
-
-
+- Su, J., Fu, X., & Liu, L. (2019). Practical Foldover-Free Volumetric Mapping Construction. Comput. Graph. Forum, 38, 287-297.
+- Weber, O., & Zorin, D. (2014). Locally injective parametrization with arbitrary fixed boundaries. ACM Trans. Graph., 33, 75:1-75:12.
