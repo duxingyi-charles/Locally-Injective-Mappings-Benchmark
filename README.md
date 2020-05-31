@@ -14,15 +14,15 @@ Next, we will show several examples from each catagory and discuss how we build 
 
 ### 2D Parameterization
 
-Simple example maps a planar mesh into a planar target domain. The first two examples map a square into two concave domain. The middle two examples come from [Weber & Zorin 2014]. The last three examples are produced by rotating and translating the inner boundary.
+Simple example maps a planar mesh into a planar target domain. The first two examples map a square into two concave domains. The middle two examples come from [Weber & Zorin 2014]. The last three examples are created by rotating and translating the inner boundary.
 
 ![](figure/2D_Param_Simple.png)
 
-#### Letters
+The 30 letter examples are created by mapping 5 surface meshes into 6 letters from "SIGGRAPH". Letter "I" is not included because it is a convex domain and an injective mapping can be easily generated using Tutte embedding.
 
 ![](figure/2D_Param_Letters.png)
 
-#### Liu 
+For a large portion of 2D parameterization examples, we use the disk-topology surface meshes published in [Liu et al. 2018] as source meshes. The target domains are computed using Scaffold-map [Jiang et al. 2017].
 
 ![](figure/2D_Param_Liu.png)
 
@@ -44,5 +44,6 @@ If you use our dataset, please cite our paper:
 ## References
 
 - Weber, O., & Zorin, D. (2014). Locally injective parametrization with arbitrary fixed boundaries. ACM Trans. Graph., 33, 75:1-75:12.
+- Jiang, Z., Schaefer, S., & Panozzo, D. (2017). Simplicial complex augmentation framework for bijective maps. ACM Transactions on Graphics (TOG), 36, 1 - 9.
 
 
